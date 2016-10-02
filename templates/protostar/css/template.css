@@ -7420,3 +7420,25 @@ code {
 	position: relative;
 }
 
+.plashki {
+
+}
+
+div.plashka {
+	float: left;
+	text-align: center;
+}
+
+img.plashka {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 225px;
+	height: 225px;
+}
+
+p.plashka_title {
+	font-size: 16px;
+	color: #21A7EF;
+}
+
+

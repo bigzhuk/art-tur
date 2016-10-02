@@ -33,11 +33,11 @@ class JConfig {
 	public $ftp_user = 'WebAdmin';
 	public $gzip = '0';
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
-	public $host = 'h269006.mysql';
+	public $host = 'localhost';
 	public $lifetime = '15';
 	public $list_limit = '30';
 	public $live_site = '';
-	public $log_path = '/home/h269006/art-tur.info/docs/logs';
+	public $log_path = '/var/www/art-tur/logs';
 	public $mailer = 'mail';
 	public $mailfrom = 'postmaster@art-tur.info';
 	public $memcache_compress = '0';
@@ -49,7 +49,7 @@ class JConfig {
 	public $offline_message = 'Сайт закрыт на техническое обслуживание.<br /> Пожалуйста, зайдите на <a href="http://art-tur.info">зеркало</a>.';
 	public $offset = 'UTC';
 	public $offset_user = 'UTC';
-	public $password = 'arjje17c';
+	public $password = '';
 	public $robots = '';
 	public $secret = 'JgDYlRT6rOzsEbwTKW1r2afwBZzlbkfO';
 	public $sef = '1';
@@ -65,7 +65,7 @@ class JConfig {
 	public $smtpport = '25';
 	public $smtpsecure = 'none';
 	public $smtpuser = '';
-	public $tmp_path = '/home/h269006/art-tur.info/docs/tmp';
+	public $tmp_path = '/tmp';
 	public $unicodeslugs = '0';
 	public $user = 'root';
 	public $mailonline = '1';
